@@ -1,15 +1,51 @@
-nav{
-    background-color: #53A0EA;
+nav {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.nav-items{
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+}
+.hero {
+  background-image: url(../image/asset\ 0.jpeg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.text-white{
-    color:white;
+.hero-content {
+  width: 80%;
+  margin: auto;
 }
 
-.text-bold{
-    font-weight: bold;
+.text-white {
+  color: white;
 }
+
+.text-bold {
+  font-weight: bold;
+}
+.hero-content h1 {
+  font-weight: 400;
+  color: white;
+  font-size: 60px;
+
+}
+/* .hero-content .web{
+  animation: typing;
+  
+} */
